@@ -1,0 +1,44 @@
+# ---- Python artifacts ----
+
+**pycache**/
+\*.py\[cod]
+\*.pyo
+\*.pyd
+
+# ---- Virtual environments ----
+
+.env/
+.venv/
+venv/
+ENV/
+
+# ---- IDE & editor settings ----
+
+.vscode/
+.idea/
+*.sublime*
+
+# ---- macOS & system files ----
+
+.DS\_Store
+Thumbs.db
+
+# ---- Output files ----
+
+# Excel consolidado generado por el script
+
+/*.xlsx
+\*.xlsx
+
+# ---- Entradas sensibles/grandes ----
+
+# Estados de cuenta PDF — no deben versionarse
+
+EECC-\*.pdf
+\*.pdf
+
+# ---- Logs & misceláneos ----
+
+\*.log
+\*.tmp
+/*.pdf
